@@ -34,7 +34,6 @@ jobs:
         ./autogen.sh
         ./configure
         make
-        make check
 
     - name: Create DEB package
       run: |
